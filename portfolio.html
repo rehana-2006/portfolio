@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rehana Prijil | Portfolio</title>
+  <style>
+    /* ===== Global Reset ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #FFF7FA; /* soft pink background */
+      color: #333;
+    }
+
+    /* ===== Header ===== */
+    header {
+      background-color: #E8D4EA; /* lavender tone */
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    header h1 {
+      color: #4A004E;
+      font-size: 2.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: #6A1E55;
+      font-size: 1.1rem;
+    }
+
+    /* ===== Navigation ===== */
+    nav {
+      background-color: #FCE2EC;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: #6A1E55;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #B565A7;
+    }
+
+    /* ===== About Section ===== */
+    #about {
+      max-width: 1000px;
+      margin: 3rem auto;
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+      background: #FFFFFF;
+      border-radius: 15px;
+      padding: 2rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      flex-wrap: wrap;
+    }
+
+    .about-img {
+      flex: 1;
+      text-align: center;
+    }
+
+    .about-img img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #F8C8DC;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .about-img img:hover {
+      transform: scale(1.05);
+    }
+
+    .about-text {
+      flex: 2;
+    }
+
+    .about-text h2 {
+      color: #4A004E;
+      margin-bottom: 1rem;
+    }
+
+    .about-text p {
+      color: #555;
+      line-height: 1.7;
+    }
+
+    /* ===== Projects ===== */
+    #projects {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #FFFFFF;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    #projects h2 {
+      color: #4A004E;
+      margin-bottom: 1rem;
+      border-left: 5px solid #E6CCE6;
+      padding-left: 10px;
+    }
+
+    .project-card {
+      background-color: #FDE2F3;
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin: 1rem 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    }
+
+    .project-card h3 {
+      color: #6A1E55;
+      margin-bottom: 0.5rem;
+    }
+    .project-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: linear-gradient(135deg, #F8C8DC, #E6CCE6);
+  color: #4A004E;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #E6CCE6, #F8C8DC);
+}
+
+
+    /* ===== Skills Section ===== */
+    #skills {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background: #FFFFFF;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    #skills h2 {
+      color: #4A004E;
+      margin-bottom: 1rem;
+      border-left: 5px solid #E6CCE6;
+      padding-left: 10px;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .skill {
+      background-color: #FCE2EC;
+      padding: 0.8rem 1.2rem;
+      border-radius: 30px;
+      font-weight: 500;
+      color: #4A004E;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      text-align: center;
+      background-color: #E6CCE6;
+      color: #4A004E;
+      padding: 1.2rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    /* ===== Responsive ===== */
+    @media (max-width: 768px) {
+      #about {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-text {
+        text-align: center;
+      }
+      .skills-list {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rehana Prijil</h1>
+    <p>Aspiring Backend Developer | Learning Web Development</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+  </nav>
+
+  <section id="about">
+    <div class="about-img">
+      <!-- Replace this with your own photo -->
+      <img src="./WhatsApp Image 2025-10-09 at 5.57.02 PM (1).jpeg" alt="Rehana's Photo">
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hello! I’m Rehana, a passionate learner exploring the world of web development.
+        I know <strong>HTML, CSS, and Python</strong> and aspire to become a skilled <strong>backend developer</strong>.
+        I’ve already created a simple static website using HTML and CSS and I’m continuously improving my skills to build full-stack applications in the future.
+      </p>
+    </div>
+  </section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>Mini Home Decor E-shop</h3>
+    <p>A simple, clean static website built using HTML and CSS as my first web development project.</p>
+    <a href="https://rehana-2006.github.io/static_website/" target="_blank" class="project-btn">View Project</a>
+  </div>
+</section>
+
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">Python</div>
+      <div class="skill">Figma</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Rehana Prijil | Designed with 💜 Pastel Love</p>
+  </footer>
+
+</body>
+</html>
