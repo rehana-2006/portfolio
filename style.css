@@ -566,6 +566,14 @@ body {
     color: white;
 }
 
+.project-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
 .project-overlay {
     position: absolute;
     inset: 0;
