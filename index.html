@@ -1,204 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rehana | Software Developer Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-      <div class="nav-container">
-        <a href="#home" class="logo"
-          ><span class="logo-bracket">&lt;</span
-          ><span class="logo-text">Rehana prijil.S</span
-          ><span class="logo-bracket">/&gt;</span></a
-        >
-        <ul class="nav-menu" id="nav-menu">
-          <li><a href="#home" class="nav-link active">Home</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-        <div class="hamburger" id="hamburger">
-          <span></span><span></span><span></span>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rehana | Software Developer Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo"><span class="logo-text">Rehana
+          prijil.S</span></a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="hero-container">
-        <div class="hero-content">
-          <div class="hero-text">
-            <p class="hero-greeting fade-in">Hi there! 👋 I'm</p>
-            <h1 class="hero-name fade-in-up">Rehana Prijil.S</h1>
-            <p class="hero-description fade-in-up">
-              A passionate web development student crafting elegant solutions
-              through code. I transform ideas into interactive digital
-              experiences with a focus on web development and modern
-              technologies.
-            </p>
-            <div class="hero-buttons fade-in-up">
-              <a href="#projects" class="btn btn-primary"
-                ><span>View My Work</span><i class="fas fa-arrow-right"></i
-              ></a>
-              <a href="#contact" class="btn btn-secondary"
-                ><span>Get In Touch</span><i class="fas fa-envelope"></i
-              ></a>
-            </div>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting fade-in">Hi there! 👋 I'm</p>
+          <h1 class="hero-name fade-in-up">Rehana Prijil.S</h1>
+          <p class="hero-description fade-in-up">
+            A passionate web development student crafting elegant solutions
+            through code. I transform ideas into interactive digital
+            experiences with a focus on web development and modern
+            technologies.
+          </p>
+          <div class="hero-buttons fade-in-up">
+            <a href="#projects" class="btn btn-primary"><span>View My Work</span><i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn-secondary"><span>Get In Touch</span><i class="fas fa-envelope"></i></a>
           </div>
-          <div class="hero-visual fade-in">
-            <div class="code-window">
-              <div class="window-header">
-                <div class="window-buttons">
-                  <span class="btn-close"></span
-                  ><span class="btn-minimize"></span
-                  ><span class="btn-maximize"></span>
-                </div>
-                <span class="window-title">portfolio.js</span>
+        </div>
+        <div class="hero-visual fade-in">
+          <div class="code-window">
+            <div class="window-header">
+              <div class="window-buttons">
+                <span class="btn-close"></span><span class="btn-minimize"></span><span class="btn-maximize"></span>
               </div>
-              <div class="window-body">
-                <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> 
+              <span class="window-title">portfolio.js</span>
+            </div>
+            <div class="window-body">
+              <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> 
   <span class="code-property">name</span> <span class="code-string">"Your Name"</span>
   <span class="code-property">skills</span> <span class="code-string">"Web Dev"</span> <span class="code-string">"JavaScript"</span>
   <span class="code-property">passion</span> <span class="code-string">"Building cool stuff"</span>
 </code></pre>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="scroll-indicator">
-          <span>Scroll Down</span>
-          <div class="scroll-arrow"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Get To Know Me</span>
-          <h2 class="section-title">About Me</h2>
-        </div>
-        <div class="about-content">
-          <div class="about-image">
-            <div class="image-wrapper">
-              <div class="image-placeholder">
-                <img src="./rehana.jpg" alt="Rehana Prijil.S" />
-                <!-- <i class="fas fa-user-circle"></i> -->
-              </div>
-              <div class="image-decoration"></div>
-            </div>
-          </div>
-          <div class="about-text">
-            <h3>Hello! I'm a Web development student Student</h3>
-            <p>
-              I'm completed my school education. and I'm currently studying in
-              freshworks software academy about the web development. I enjoy
-              building responsive and user friendly web application using
-              <b>HTML , CSS , JavaScript , PostgreSQL , FastAPI</b>.
-            </p>
-            <p>
-              I have created a simple static project named
-              <b>Mini Home Decor E-shop</b>, which focused mainly on frontend
-              and responsive design. I'm constantly improving my skills and
-              learned <b>JavaScript and FastAPI</b>. Using FastAPI I have
-              created a <b>simple ticket booking</b> project which focused on
-              backend.
-            </p>
-            <p>
-              I'm also learning problem solving using python. I'm also have
-              interest in exploring about AI and technologies related to it.
-              Other than coding , I am also interested in drawing and Watching
-              dramas.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">My Expertise</span>
-          <h2 class="section-title">Technical Skills</h2>
-        </div>
-        <div class="skills-grid">
-          <div class="skill-category">
-            <div class="category-icon"><i class="fas fa-code"></i></div>
-            <h3>Frontend Development</h3>
-            <div class="skill-items">
-              <div class="skill-item">
-                <span class="skill-name">HTML</span>
-              </div>
-              <div class="skill-item"><span class="skill-name">CSS</span></div>
-              <div class="skill-item">
-                <span class="skill-name">JavaScript</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-category">
-            <div class="category-icon"><i class="fas fa-server"></i></div>
-            <h3>Backend & Database</h3>
-            <div class="skill-items">
-              <div class="skill-item">
-                <span class="skill-name">PostgreSQL</span>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">Python</span>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">FastAPI</span>
-              </div>
-            </div>
-          </div>
-          <div class="skill-category">
-            <div class="category-icon"><i class="fas fa-tools"></i></div>
-            <h3>Tools & Others</h3>
-            <div class="skill-items">
-              <div class="skill-item">
-                <span class="skill-name">Git & GitHub</span>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">VS Code</span>
-              </div>
-              <div class="skill-item">
-                <span class="skill-name">Responsive Design</span>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects section">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">My Work</span>
-          <h2 class="section-title">Featured Projects</h2>
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <!-- <span class="section-tag">Get To Know Me</span> -->
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-wrapper">
+            <div class="image-placeholder">
+              <img src="./rehana.jpg" alt="Rehana Prijil.S" />
+              <!-- <i class="fas fa-user-circle"></i> -->
+            </div>
+            <div class="image-decoration"></div>
+          </div>
         </div>
+        <div class="about-text">
+          <h3>Hello! I'm a Web Development Student</h3>
+          <p>
+            I am Rehana Prijil from Kanyakumari district. I have completed my
+            higher secondary education and am currently studying at Freshworks
+            Software Academy, focusing on web development. I have a strong
+            interest in backend development and web development.
+          </p>
+          <p>
+            I have learnt HTML, CSS, JavaScript, PostgreSQL, and FastAPI.
+            Initially, I created a static website, which helped me understand
+            frontend development and responsive design. I also built a simple
+            FastAPI backend project and later developed a full-stack project
+            using the skills I learnt.
+          </p>
+          <p>
+            I'm also learning problem solving using python. I'm also have
+            interest in exploring about AI and technologies related to it.
+            Other than coding , I am also interested in drawing and Watching
+            dramas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <!-- <span class="section-tag">My Expertise</span> -->
+        <h2 class="section-title">Skills</h2>
+      </div>
+
+      <!-- Technical Skills Subsection -->
+      <div class="subsection">
+        <h3 class="subsection-title">
+          <i class="fas fa-code"></i> Technical Skills
+        </h3>
+        <div class="skills-container">
+          <!-- HTML Card -->
+          <div class="skill-card-individual fade-in-up">
+            <div class="circular-progress">
+              <svg>
+                <circle cx="60" cy="60" r="52"></circle>
+                <circle cx="60" cy="60" r="52" style="stroke-dashoffset: 65.3; stroke: #3b82f6"></circle>
+              </svg>
+              <div class="progress-value">80%</div>
+            </div>
+            <h4 class="skill-name-card">HTML</h4>
+          </div>
+
+          <!-- CSS Card -->
+          <div class="skill-card-individual fade-in-up">
+            <div class="circular-progress">
+              <svg>
+                <circle cx="60" cy="60" r="52"></circle>
+                <circle cx="60" cy="60" r="52" style="stroke-dashoffset: 81.7; stroke: #8b5cf6"></circle>
+              </svg>
+              <div class="progress-value">75%</div>
+            </div>
+            <h4 class="skill-name-card">CSS</h4>
+          </div>
+
+          <!-- JavaScript Card -->
+          <div class="skill-card-individual fade-in-up">
+            <div class="circular-progress">
+              <svg>
+                <circle cx="60" cy="60" r="52"></circle>
+                <circle cx="60" cy="60" r="52" style="stroke-dashoffset: 163.4; stroke: #f59e0b"></circle>
+              </svg>
+              <div class="progress-value">50%</div>
+            </div>
+            <h4 class="skill-name-card">JavaScript</h4>
+          </div>
+
+          <!-- PostgreSQL Card -->
+          <div class="skill-card-individual fade-in-up">
+            <div class="circular-progress">
+              <svg>
+                <circle cx="60" cy="60" r="52"></circle>
+                <circle cx="60" cy="60" r="52" style="stroke-dashoffset: 81.7; stroke: #3b82f6"></circle>
+              </svg>
+              <div class="progress-value">75%</div>
+            </div>
+            <h4 class="skill-name-card">PostgreSQL</h4>
+          </div>
+
+          <!-- Python Card -->
+          <div class="skill-card-individual fade-in-up">
+            <div class="circular-progress">
+              <svg>
+                <circle cx="60" cy="60" r="52"></circle>
+                <circle cx="60" cy="60" r="52" style="stroke-dashoffset: 114.3; stroke: #10b981"></circle>
+              </svg>
+              <div class="progress-value">65%</div>
+            </div>
+            <h4 class="skill-name-card">Python</h4>
+          </div>
+
+          <!-- FastAPI Card -->
+          <div class="skill-card-individual fade-in-up">
+            <div class="circular-progress">
+              <svg>
+                <circle cx="60" cy="60" r="52"></circle>
+                <circle cx="60" cy="60" r="52" style="stroke-dashoffset: 65.3; stroke: #7c3aed"></circle>
+              </svg>
+              <div class="progress-value">80%</div>
+            </div>
+            <h4 class="skill-name-card">FastAPI</h4>
+          </div>
+          <!-- problem-solving -->
+          <div class="skill-card-individual fade-in-up">
+            <div class="circular-progress">
+              <svg>
+                <circle cx="60" cy="60" r="52"></circle>
+                <circle cx="60" cy="60" r="52" style="stroke-dashoffset: 114.3; stroke: #7c3aed"></circle>
+              </svg>
+              <div class="progress-value">65%</div>
+            </div>
+            <h4 class="skill-name-card">Problem Solving</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Life Skills Subsection -->
+      <div class="subsection" style="margin-top: 60px">
+        <h3 class="subsection-title">
+          <i class="fas fa-heart"></i> Life Skills
+        </h3>
+        <div class="lsrw-grid">
+          <div class="lsrw-card fade-in-up">
+            <div class="lsrw-icon"><i class="fas fa-users"></i></div>
+            <h4 class="lsrw-label">Teamwork</h4>
+            <!-- <div class="grade-badge">A+</div> -->
+          </div>
+          <div class="lsrw-card fade-in-up">
+            <div class="lsrw-icon"><i class="fas fa-lightbulb"></i></div>
+            <h4 class="lsrw-label">Problem Solving</h4>
+            <!-- <div class="grade-badge">A+</div> -->
+          </div>
+          <!-- <div class="lsrw-card fade-in-up">
+            <div class="lsrw-icon"><i class="fas fa-clock"></i></div>
+            <h4 class="lsrw-label">Time Management</h4>
+            <div class="grade-badge">A</div>
+          </div> -->
+          <!-- <div class="lsrw-card fade-in-up"> -->
+            <!-- <div class="lsrw-icon"><i class="fas fa-sync-alt"></i></div> -->
+            <!-- <h4 class="lsrw-label">Adaptability</h4> -->
+            <!-- <div class="grade-badge">A+</div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <!-- Communication Subsection -->
+      <div class="subsection" style="margin-top: 60px">
+        <h3 class="subsection-title">
+          <i class="fas fa-language"></i> Communication
+        </h3>
+        <div class="lsrw-grid">
+          <!-- Listening -->
+          <div class="lsrw-card fade-in-up">
+            <div class="lsrw-icon"><i class="fas fa-headphones"></i></div>
+            <h4 class="lsrw-label">Listening</h4>
+            <div class="grade-badge">A+</div>
+          </div>
+          <!-- Speaking -->
+          <div class="lsrw-card fade-in-up">
+            <div class="lsrw-icon"><i class="fas fa-comment-dots"></i></div>
+            <h4 class="lsrw-label">Speaking</h4>
+            <div class="grade-badge">A</div>
+          </div>
+          <!-- Reading -->
+          <div class="lsrw-card fade-in-up">
+            <div class="lsrw-icon"><i class="fas fa-book-open"></i></div>
+            <h4 class="lsrw-label">Reading</h4>
+            <div class="grade-badge">A+</div>
+          </div>
+          <!-- Writing -->
+          <div class="lsrw-card fade-in-up">
+            <div class="lsrw-icon"><i class="fas fa-pen-nib"></i></div>
+            <h4 class="lsrw-label">Writing</h4>
+            <div class="grade-badge">A+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <!-- <span class="section-tag">My Work</span> -->
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <!-- Group: Featured Projects (Personal) -->
+      <div class="subsection">
+        <h3 class="subsection-title">
+          <i class="fas fa-user"></i> My Projects
+        </h3>
         <div class="projects-grid">
           <!-- Featured: Mini Home Decor E-Shop -->
           <div class="project-card">
             <div class="project-image">
               <div class="project-overlay">
                 <div class="project-links">
-                  <a href="https://rehana-2006.github.io/static_website/" class="project-link" target="_blank"
-                    >
+                  <a href="https://rehana-2006.github.io/static_website/" class="project-link" target="_blank">
                     <i class="fas fa-external-link-alt"></i>
-                    <span>Live Demo</span></a
-                  >
+                    <span>Live Demo</span></a>
                 </div>
               </div>
               <div class="project-placeholder">
@@ -209,14 +308,14 @@
             <div class="project-content">
               <h3>Mini Home Decor E-Shop</h3>
               <p>
-                A e-commerce platform for home decor items , a
-                static project featuring product listings, View product details
-                and shows the clean checkout process . Built with
-                <b>HTML and CSS</b>. It mainly focused on frontend development.
+                A e-commerce platform for home decor items , a static project
+                featuring product listings, View product details and shows the
+                clean checkout process . Built with
+                <b>HTML and CSS</b>. It mainly focused on frontend
+                development.
               </p>
               <div class="project-tech">
-                <span class="tech-tag">HTML</span
-                ><span class="tech-tag">CSS</span>
+                <span class="tech-tag">HTML</span><span class="tech-tag">CSS</span>
               </div>
             </div>
           </div>
@@ -225,10 +324,8 @@
             <div class="project-image">
               <div class="project-overlay">
                 <div class="project-links">
-                  <a href="https://job-4-hope-full-stack.vercel.app/" class="project-link" target="_blank"
-                    ><i class="fas fa-external-link-alt"></i
-                    ><span>Live Demo</span></a
-                  >
+                  <a href="https://job-4-hope-full-stack.vercel.app/" class="project-link" target="_blank"><i
+                      class="fas fa-external-link-alt"></i><span>Live Demo</span></a>
                 </div>
               </div>
               <div class="project-placeholder">
@@ -239,173 +336,278 @@
             <div class="project-content">
               <h3>Job4Hope</h3>
               <p>
-                Job4Hope cannot solve every part of child labour, but it focuses
-                on the most important things it can actually change. We work on
-                two main areas: preventing child labour by improving economic
-                conditions, and helping children who are currently affected. By
-                focusing on these key areas, we can use our resources
-                effectively and create the biggest impact.
+                Job4Hope can’t solve every aspect of child labour, but it
+                focuses on what it can change most effectively—preventing
+                child labour by improving economic conditions and supporting
+                children already affected, to create the greatest impact.
               </p>
               <div class="project-tech">
-                <span class="tech-tag">HTML</span
-                ><span class="tech-tag">CSS</span
-                ><span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span
+                  class="tech-tag">JavaScript</span>
                 <span class="tech-tag">FastAPI</span>
-                <span class="tech-tag">PostgreSQL</span>
+                <!-- <span class="tech-tag">PostgreSQL</span> -->
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Get in Touch</span>
-          <h2 class="section-title">Let's Connect</h2>
-        </div>
-        <div class="contact-content">
-          <div class="contact-info">
-            <h3>Let's work together!</h3>
-            <p>contact me through the form or via email/phone.</p>
-            <div class="contact-details">
-              <div class="contact-item">
-                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-                <div class="contact-text">
-                  <h4>Email</h4>
-                  <p>rehanaprijil@example.com</p>
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://www.canva.com/design/DAG7jGlB4iQ/VlLWEEm6mEYM_Dva2SWDPA/edit?utm_content=DAG7jGlB4iQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                    class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i><span>Live
+                      Demo</span></a>
                 </div>
               </div>
-              <div class="contact-item">
-                <div class="contact-icon"><i class="fas fa-phone"></i></div>
-                <div class="contact-text">
-                  <h4>Phone</h4>
-                  <p>+91 78455 27156</p>
+              <div class="project-placeholder">
+                <img src="./photo_essay_1.png" alt="photo-essay" />
+                <!-- <i class="fas fa-tasks"></i> -->
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>The Great Unwinding</h3>
+              <p>
+                The Great Unwinding is my photo essay project that captures
+                the post work life of people in chennai. It explores how
+                individuals unwind and find peace after a long hours of work.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Photo Essay</span><span class="tech-tag">Communication</span><span
+                  class="tech-tag">Presentation</span>
+                <!-- <span class="tech-tag">FastAPI</span> -->
+                <!-- <span class="tech-tag">PostgreSQL</span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Group: Group Projects -->
+      <div class="subsection" style="margin-top: 60px">
+        <h3 class="subsection-title">
+          <i class="fas fa-users"></i> Group Projects
+        </h3>
+        <div class="projects-grid">
+          <!-- Project: Comfort Cradle (Group) -->
+          <div class="project-card">
+            <div class="project-badge">Group Product</div>
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <span class="project-link-disabled">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Product Design</span>
+                  </span>
                 </div>
               </div>
+              <div class="project-placeholder">
+                <img src="./product.jpeg" alt="comfort cradle" />
+                <!-- <i class="fas fa-briefcase-medical"></i> -->
+              </div>
             </div>
-            <div class="social-links">
-              <a
-                href="https://github.com/rehana-2006"
-                target="_blank"
-                class="social-link"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a
-                href="https://www.linkedin.com/in/rehana-prijil-876665374/"
-                target="_blank"
-                class="social-link"
-                ><i class="fab fa-linkedin"></i
-              ></a>
+            <div class="project-content">
+              <h3>Comfort Cradle</h3>
+              <p>
+                An innovative pain relief belt designed specifically for
+                period cramps. Developed as a group product, focusing on
+                hardware design, comfort, and physiological relief efficiency.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Product Design</span>
+                <span class="tech-tag">marketing</span>
+                <span class="tech-tag">Teamwork</span>
+              </div>
             </div>
           </div>
-          <div class="contact-form-wrapper">
-            <form id="contact-form" class="contact-form">
-              <div class="form-group">
-                <label for="name">Your Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="John Doe"
-                  required
-                />
-                <span class="error-message" id="name-error"></span>
+          <div class="project-card">
+            <div class="project-badge">Group Product</div>
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <span class="project-link-disabled">
+                    <i class="fas fa-info-circle"></i>
+                    <span>presentation</span>
+                  </span>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="email">Your Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="john@example.com"
-                  required
-                />
-                <span class="error-message" id="email-error"></span>
+              <div class="project-placeholder">
+                <img src="./workplace.png" alt="workplace study" />
+                <!-- <i class="fas fa-briefcase-medical"></i> -->
               </div>
-              <div class="form-group">
-                <label for="subject">Subject</label>
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  placeholder="Project Collaboration"
-                  required
-                />
-                <span class="error-message" id="subject-error"></span>
+            </div>
+            <div class="project-content">
+              <h3>Workplace study presentation</h3>
+              <p>
+                A presentation we made on workplace study was mainly helpful
+                to understand about the roles in IT industry.Through this we
+                learned about networking, collecting information and
+                documentation. Help us to learn about the collaboration
+                between the team members.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Presentation</span>
+                <span class="tech-tag">Collaboration</span>
+                <span class="tech-tag">Teamwork</span>
               </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="5"
-                  placeholder="Tell me about your project..."
-                  required
-                ></textarea>
-                <span class="error-message" id="message-error"></span>
-              </div>
-              <button type="submit" class="btn btn-primary btn-submit">
-                <span>Send Message</span><i class="fas fa-paper-plane"></i>
-              </button>
-              <div class="form-status" id="form-status"></div>
-            </form>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-brand">
-            <a href="#home" class="footer-logo"
-              ><span class="logo-bracket">&lt;</span
-              ><span class="logo-text">Rehana Prijil.S</span
-              ><span class="logo-bracket">/&gt;</span></a
-            >
-            <p>Building the future, one line of code at a time.</p>
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements section" style="background: var(--bg-light)">
+    <div class="container">
+      <div class="section-header">
+        <!-- <span class="section-tag">Milestones</span> -->
+        <h2 class="section-title">Achievements</h2>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card fade-in-up">
+          <div class="achievement-image">
+            <img src="./workplace.png" alt="Workplace Study Achievement" />
           </div>
-          <div class="footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-social">
-            <h4>Follow Me</h4>
-            <div class="social-links">
-              <a
-                href="https://github.com/rehana-2006"
-                target="_blank"
-                class="social-link"
-                ><i class="fab fa-github"></i
-              ></a>
-              <a
-                href="https://www.linkedin.com/in/rehana-prijil-876665374/"
-                target="_blank"
-                class="social-link"
-                ><i class="fab fa-linkedin"></i
-              ></a>
+          <div class="achievement-content-wrapper">
+            <div class="achievement-icon"><i class="fas fa-award"></i></div>
+            <div class="achievement-details">
+              <h3>2nd Prize - Workplace Study</h3>
+              <p>
+                Won 2nd prize for outstanding presentation on workplace study
+                at Freshworks Software Academy.
+              </p>
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p>&copy; 2026 Rehana Prijil.S . All rights reserved.</p>
-          <p>
-            Designed & Built with <i class="fas fa-heart"></i> by Rehana
-            Prijil.S
-          </p>
+        <div class="achievement-card fade-in-up">
+          <div class="achievement-image">
+            <img src="./certificate.jpeg" alt="Certificate" />
+          </div>
+          <div class="achievement-content-wrapper">
+            <div class="achievement-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="achievement-details">
+              <h3>Product building Challenge</h3>
+              <p>
+                recognized individually for good presentation skills in
+                product building challenge and received a certificate from the
+                Freshworks Software Academy.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-  </body>
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <!-- <span class="section-tag">Get in Touch</span> -->
+        <h2 class="section-title">Let's Connect</h2>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <!-- <h3>Let's work together!</h3> -->
+          <p>contact me through the form or via email/phone.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>rehanaprijil@example.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+91 78455 27156</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/rehana-2006" target="_blank" class="social-link"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rehana-prijil-876665374/" target="_blank" class="social-link"><i
+                class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <!-- <div class="contact-form-wrapper">
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+              <span class="error-message" id="name-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              <span class="error-message" id="email-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Collaboration" required />
+              <span class="error-message" id="subject-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                required></textarea>
+              <span class="error-message" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit">
+              <span>Send Message</span><i class="fas fa-paper-plane"></i>
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo"><span class="logo-text">Rehana
+              Prijil.S</span></a>
+          <p>Building the future, one line of code at a time.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Me</h4>
+          <div class="social-links">
+            <a href="https://github.com/rehana-2006" target="_blank" class="social-link"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rehana-prijil-876665374/" target="_blank" class="social-link"><i
+                class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Rehana Prijil.S . All rights reserved.</p>
+        <p>
+          Designed & Built with <i class="fas fa-heart"></i> by Rehana
+          Prijil.S
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
