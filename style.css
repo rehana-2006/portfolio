@@ -635,7 +635,7 @@ body {
 .lsrw-card:hover .lsrw-icon {
     background: var(--primary);
     color: white;
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
 }
 
 .lsrw-label {
