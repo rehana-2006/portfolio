@@ -537,10 +537,52 @@ body {
     letter-spacing: 0.5px;
 }
 
+/* Hometown Image */
+.hometown-image-container {
+    width: 100%;
+    margin-top: 24px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.hometown-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+    border-radius: 16px;
+    filter: brightness(0.92);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.hometown-image-container:hover .hometown-img {
+    transform: scale(1.03);
+}
+
+.hometown-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.hometown-label i {
+    color: var(--primary);
+    font-size: 13px;
+}
+
 /* Stats Mini Grid */
 .stats-mini-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
