@@ -1,740 +1,839 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rehana | Software Developer Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rehana | Software Developer Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo"
+          ><span class="logo-text">Rehana prijil.S</span></a
+        >
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
 
-<body>
-  <!-- Navigation -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-container">
-      <a href="#home" class="logo"><span class="logo-text">Rehana prijil.S</span></a>
-      <ul class="nav-menu" id="nav-menu">
-        <li><a href="#home" class="nav-link active">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-      <div class="hamburger" id="hamburger">
-        <span></span><span></span><span></span>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-container">
-      <div class="hero-content">
-        <div class="hero-text">
-          <p class="hero-greeting fade-in">Hi there! 👋 I'm</p>
-          <h1 class="hero-name fade-in-up">Rehana Prijil S</h1>
-          <p class="hero-description fade-in-up">
-            I am a passionate web development student who enjoys building websites and web applications. I am always
-            eager to learn new technologies and improve my skills through hands-on projects.
-          </p>
-          <div class="hero-buttons fade-in-up">
-            <a href="#projects" class="btn btn-primary"><span>View My Work</span><i class="fas fa-arrow-right"></i></a>
-            <a href="#contact" class="btn btn-secondary"><span>Get In Touch</span><i class="fas fa-envelope"></i></a>
-          </div>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
         </div>
-        <div class="hero-visual fade-in">
-          <div class="code-window">
-            <div class="window-header">
-              <div class="window-buttons">
-                <span class="btn-close"></span><span class="btn-minimize"></span><span class="btn-maximize"></span>
-              </div>
-              <span class="window-title">portfolio.js</span>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <p class="hero-greeting fade-in">Hi there! 👋 I'm</p>
+            <h1 class="hero-name fade-in-up">Rehana Prijil S</h1>
+            <p class="hero-description fade-in-up">
+              I am a passionate web development student who enjoys building
+              websites and web applications. I am always eager to learn new
+              technologies and improve my skills through hands-on projects.
+            </p>
+            <div class="hero-buttons fade-in-up">
+              <a href="#projects" class="btn btn-primary"
+                ><span>View My Work</span><i class="fas fa-arrow-right"></i
+              ></a>
+              <a href="#contact" class="btn btn-secondary"
+                ><span>Get In Touch</span><i class="fas fa-envelope"></i
+              ></a>
             </div>
-            <div class="window-body">
-              <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> 
+          </div>
+          <div class="hero-visual fade-in">
+            <div class="code-window">
+              <div class="window-header">
+                <div class="window-buttons">
+                  <span class="btn-close"></span
+                  ><span class="btn-minimize"></span
+                  ><span class="btn-maximize"></span>
+                </div>
+                <span class="window-title">portfolio.js</span>
+              </div>
+              <div class="window-body">
+                <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> 
   <span class="code-property">name</span> <span class="code-string">"Rehana Prijil.S"</span>
   <span class="code-property">skills</span> <span class="code-string">"Web Dev"</span> <span class="code-string">"JavaScript"</span>
   <span class="code-property">passion</span> <span class="code-string">"Building cool stuff"</span>
 </code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-indicator">
+          <span>Scroll Down</span>
+          <div class="scroll-arrow"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Profile Summary</h2>
+        </div>
+
+        <div class="about-layout">
+          <!-- Main Story Card -->
+          <div class="about-card story-card fade-in-up">
+            <div class="card-icon"><i class="fas fa-seedling"></i></div>
+            <h3>My journey</h3>
+            <p>
+              I am <strong>Rehana Prijil</strong>, an aspiring web developer
+              from Kanyakumari district. Currently, I am pursuing professional
+              training at the <strong>Freshworks STS Software Academy</strong>,
+              where I am developing my skills in Web Development, English
+              communication, and Life skills.
+            </p>
+            <p>
+              Coming from a humble background, with my Father working as a
+              Fisherman and my mother as a HomeMaker, I also have a younger
+              brother and sister, my family has strengthened my sense of
+              responsibility and motivation to succeed.
+            </p>
+            <div class="about-quote">
+              "My goal is to become a skilled web developer with strong backend
+              expertise."
+            </div>
+          </div>
+
+          <!-- Profile & Stats -->
+          <div class="about-profile-grid">
+            <div class="profile-main-card fade-in-up">
+              <div class="profile-image-container">
+                <img src="./rehana.jpg" alt="Rehana Prijil S" />
+              </div>
+              <div class="profile-info">
+                <h4>Rehana Prijil S</h4>
+              </div>
+              <div class="hometown-image-container">
+                <img
+                  src="./kanniyakumari.jpg"
+                  alt="Kanyakumari District"
+                  class="hometown-img"
+                />
+                <div class="hometown-label">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Kanyakumari District</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academy Carousel Section -->
+          <div class="academy-carousel-container fade-in-up">
+            <div class="carousel-header">
+              <h3 class="carousel-title">My Academy Journey</h3>
+              <p class="carousel-subtitle">Freshworks Software Academy</p>
+            </div>
+            <div class="stats-mini-grid">
+              <div class="stat-card fade-in-up">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Projects Built</span>
+              </div>
+              <div class="stat-card fade-in-up">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Awards</span>
+              </div>
+              <div class="stat-card fade-in-up">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Event Participated</span>
+              </div>
+              <div class="stat-card fade-in-up">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Group Projects</span>
+              </div>
+            </div>
+
+            <div class="carousel-wrapper">
+              <div class="marquee-container">
+                <div class="marquee-track">
+                  <!-- Set 1 -->
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./dev_fest.jpg" alt="GDG DevFest" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fab fa-google"></i>
+                        <h4>GDG DevFest 2025</h4>
+                      </div>
+                      <p>
+                        Participated in <strong>Google Developer Groups DevFest 2025</strong>,
+                        gaining insights into emerging technologies and
+                        networking with industry experts.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./react_meetup.jpg" alt="React Meetup" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fab fa-react"></i>
+                        <h4>React Meetup</h4>
+                      </div>
+                      <p>
+                        Attended a <strong>React Developer Meetup</strong>, connecting with
+                        industry professionals and exploring advanced Front-end
+                        concepts and scalable architecture.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./dev_fest_prize.jpg" alt="Prize - DevFest" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-trophy"></i>
+                        <h4>DevFest Interactive Quiz Winner</h4>
+                      </div>
+                      <p>
+                        Awarded for active participation and accurate responses
+                        in a session-based fun challenge at Google Developer
+                        Group DevFest.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img
+                        src="./certificate.jpeg"
+                        alt="Presentation Certificate"
+                      />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Presentation Skills</h4>
+                      </div>
+                      <p>
+                        Recognized for strong
+                        <strong>public speaking</strong> and
+                        <strong>presentation skills </strong>during a Product
+                        Building Challenge and received a certificate.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img
+                        src="./work_place_study_pic.jpeg"
+                        alt="Academic Journey"
+                      />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-book-reader"></i>
+                        <h4>Workplace Study Presentation – 2nd Prize</h4>
+                      </div>
+                      <p>
+                        Delivered a presentation on IT workplace roles,
+                        strengthening
+                        <strong
+                          >research, networking, documentation, and teamwork
+                          skills</strong
+                        >
+                        and secured <strong>2nd Prize </strong>for our unique
+                        approach..
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./art_and_craft.jpg" alt="Art work" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-palette"></i>
+                        <h4>Drawing & Art</h4>
+                      </div>
+                      <p>
+                        I enjoy drawing as a hobby, which allows me to express
+                        creativity and maintain a balanced, imaginative mindset.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./photo_essay_1.png" alt="Photo Essay" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-camera"></i>
+                        <h4>The Great Unwinding – Photo Essay</h4>
+                      </div>
+                      <p>
+                        A visual storytelling project capturing how people in
+                        Chennai unwind after work, enhancing my
+                        <strong
+                          >creativity, communication, and presentation
+                          skills</strong
+                        >.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./product.jpeg" alt="Workplace" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Product building challenge</h4>
+                      </div>
+                      <p>
+                        Developed <strong>Comfort Cradle</strong>, an innovative
+                        pain relief belt for period cramps, enhancing our
+                        <strong
+                          >teamwork, collaboration, and problem-solving
+                          skills</strong
+                        >
+                        in a group setting.
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Set 2 (Duplicates for seamless loop) -->
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./dev_fest.jpg" alt="GDG DevFest" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fab fa-google"></i>
+                        <h4>GDG DevFest 2025</h4>
+                      </div>
+                      <p>
+                        Participated in Google Developer Groups DevFest 2025,
+                        gaining insights into emerging technologies and
+                        networking with industry experts.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./react_meetup.jpg" alt="React Meetup" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fab fa-react"></i>
+                        <h4>React Meetup</h4>
+                      </div>
+                      <p>
+                        Attended a React Developer Meetup, connecting with
+                        industry professionals and exploring advanced frontend
+                        concepts and scalable architecture.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./dev_fest_prize.jpg" alt="Prize - DevFest" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-trophy"></i>
+                        <h4>DevFest Interactive Quiz Winner</h4>
+                      </div>
+                      <p>
+                        Awarded for active participation and accurate responses
+                        in a session-based fun challenge at Google Developer
+                        Group DevFest.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img
+                        src="./certificate.jpeg"
+                        alt="Presentation Certificate"
+                      />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-certificate"></i>
+                        <h4>Presentation Skills</h4>
+                      </div>
+                      <p>
+                        Recognized for strong
+                        <strong>public speaking</strong> and
+                        <strong>presentation skills </strong>during a Product
+                        Building Challenge and received a certificate.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img
+                        src="./work_place_study_pic.jpeg"
+                        alt="Academic Journey"
+                      />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-book-reader"></i>
+                        <h4>Workplace Study Presentation – 2nd Prize</h4>
+                      </div>
+                      <p>
+                        Delivered a presentation on IT workplace roles,
+                        strengthening
+                        <strong
+                          >research, networking, documentation, and teamwork
+                          skills</strong
+                        >
+                        and secured <strong>2nd Prize </strong>for our unique
+                        approach..
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./art_and_craft.jpg" alt="Art work" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-palette"></i>
+                        <h4>Drawing & Art</h4>
+                      </div>
+                      <p>
+                        I enjoy drawing as a hobby, which allows me to express
+                        creativity and maintain a balanced, imaginative mindset.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./photo_essay_1.png" alt="Photo Essay" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-camera"></i>
+                        <h4>The Great Unwinding – Photo Essay</h4>
+                      </div>
+                      <p>
+                        A visual storytelling project capturing how people in
+                        Chennai unwind after work, enhancing my
+                        <strong
+                          >creativity, communication, and presentation
+                          skills</strong
+                        >.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="marquee-item">
+                    <div class="marquee-image-container">
+                      <img src="./product.jpeg" alt="Workplace" />
+                    </div>
+                    <div class="slide-caption">
+                      <div class="caption-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Product building challenge</h4>
+                      </div>
+                      <p>
+                        Developed <strong>Comfort Cradle</strong>, an innovative
+                        pain relief belt for period cramps, enhancing our
+                        <strong
+                          >teamwork, collaboration, and problem-solving
+                          skills</strong
+                        >
+                        in a group setting.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="scroll-indicator">
-        <span>Scroll Down</span>
-        <div class="scroll-arrow"></div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="about section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Profile Summary</h2>
-      </div>
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills</h2>
+        </div>
 
-      <div class="about-layout">
-        <!-- Main Story Card -->
-        <div class="about-card story-card fade-in-up">
-          <div class="card-icon"><i class="fas fa-seedling"></i></div>
-          <h3>My journey</h3>
+        <!-- Technical Skills Subsection -->
+        <div class="subsection">
+          <h3 class="subsection-title">
+            <i class="fas fa-code"></i> Technical Skills
+          </h3>
+          <div class="skills-container">
+            <!-- HTML Card -->
+            <div class="skill-card-individual fade-in-up">
+              <div class="skill-icon-container html">
+                <i class="fab fa-html5"></i>
+              </div>
+              <h4 class="skill-name-card">HTML</h4>
+            </div>
+
+            <!-- CSS Card -->
+            <div class="skill-card-individual fade-in-up">
+              <div class="skill-icon-container css">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <h4 class="skill-name-card">CSS</h4>
+            </div>
+
+            <!-- JavaScript Card -->
+            <div class="skill-card-individual fade-in-up">
+              <div class="skill-icon-container js">
+                <i class="fab fa-js"></i>
+              </div>
+              <h4 class="skill-name-card">JavaScript</h4>
+            </div>
+
+            <!-- PostgreSQL Card -->
+            <div class="skill-card-individual fade-in-up">
+              <div class="skill-icon-container pg">
+                <i class="fas fa-database"></i>
+              </div>
+              <h4 class="skill-name-card">PostgreSQL</h4>
+            </div>
+
+            <!-- Python Card -->
+            <div class="skill-card-individual fade-in-up">
+              <div class="skill-icon-container python">
+                <i class="fab fa-python"></i>
+              </div>
+              <h4 class="skill-name-card">Python</h4>
+            </div>
+
+            <!-- FastAPI Card -->
+            <div class="skill-card-individual fade-in-up">
+              <div class="skill-icon-container fastapi">
+                <i class="fas fa-bolt"></i>
+              </div>
+              <h4 class="skill-name-card">FastAPI</h4>
+            </div>
+
+            <!-- Problem Solving Card -->
+            <div class="skill-card-individual fade-in-up">
+              <div class="skill-icon-container problem">
+                <i class="fas fa-puzzle-piece"></i>
+              </div>
+              <h4 class="skill-name-card">Problem Solving</h4>
+            </div>
+          </div>
+          <h3 class="subsection-title"><i class="fas fa-code"></i> Tools</h3>
+          <div class="lsrw-grid">
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fab fa-github"></i></div>
+              <h4 class="lsrw-label">github</h4>
+            </div>
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-code"></i></div>
+              <h4 class="lsrw-label">VS Code</h4>
+              <!-- <div class="grade-badge">A+</div> -->
+            </div>
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-lightbulb"></i></div>
+              <h4 class="lsrw-label">Figma</h4>
+              <!-- <div class="grade-badge">A+</div> -->
+            </div>
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-server"></i></div>
+              <h4 class="lsrw-label">vercel</h4>
+              <!-- <div class="grade-badge">A+</div> -->
+            </div>
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-database"></i></div>
+              <h4 class="lsrw-label">Supabase</h4>
+              <!-- <div class="grade-badge">A+</div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Communication Subsection -->
+        <div class="subsection" style="margin-top: 60px">
+          <h3 class="subsection-title">
+            <i class="fas fa-language"></i> English Skills
+          </h3>
+          <div class="lsrw-grid">
+            <!-- Listening -->
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-headphones"></i></div>
+              <h4 class="lsrw-label">Listening</h4>
+              <div class="grade-badge">B2 - Upper Intermediate</div>
+            </div>
+            <!-- Speaking -->
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-comment-dots"></i></div>
+              <h4 class="lsrw-label">Speaking</h4>
+              <div class="grade-badge">B2 - Upper Intermediate</div>
+            </div>
+            <!-- Reading -->
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-book-open"></i></div>
+              <h4 class="lsrw-label">Reading</h4>
+              <div class="grade-badge">B2 - Upper Intermediate</div>
+            </div>
+            <!-- Writing -->
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-pen-nib"></i></div>
+              <h4 class="lsrw-label">Writing</h4>
+              <div class="grade-badge">B2 - Upper Intermediate</div>
+            </div>
+          </div>
+        </div>
+        <div class="subsection" style="margin-top: 60px">
+          <h3 class="subsection-title">
+            <i class="fas fa-heart"></i> Life Skills
+          </h3>
+          <div class="lsrw-grid">
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-users"></i></div>
+              <h4 class="lsrw-label">Teamwork</h4>
+            </div>
+            <div class="lsrw-card fade-in-up">
+              <div class="lsrw-icon"><i class="fas fa-lightbulb"></i></div>
+              <h4 class="lsrw-label">Problem Solving</h4>
+              <!-- <div class="grade-badge">A+</div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+        </div>
+
+        <!-- Group: Featured Projects (Personal) -->
+        <div class="subsection">
+          <div class="projects-grid">
+            <!-- Featured: Mini Home Decor E-Shop -->
+            <div class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a
+                      href="https://rehana-2006.github.io/static_website/"
+                      class="project-link"
+                      target="_blank"
+                    >
+                      <i class="fas fa-external-link-alt"></i>
+                      <span>Live Demo</span></a
+                    >
+                  </div>
+                </div>
+                <div class="project-placeholder">
+                  <img src="./static.png" alt="static" />
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>Mini Home Decor E-Shop</h3>
+                <p>
+                  A e-commerce platform for home decor items , a static project
+                  featuring product listings, View product details and shows the
+                  clean checkout process . Built with
+                  <b>HTML and CSS</b>. It mainly focused on frontend
+                  development.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span
+                  ><span class="tech-tag">CSS</span>
+                </div>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a
+                      href="https://job-4-hope-full-stack.vercel.app/"
+                      class="project-link"
+                      target="_blank"
+                      ><i class="fas fa-external-link-alt"></i
+                      ><span>Live Demo</span></a
+                    >
+                  </div>
+                </div>
+                <div class="project-placeholder">
+                  <img src="./full stack.png" alt="job4hope" />
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>Job4Hope</h3>
+                <p>
+                  Job4Hope can’t solve every aspect of child labour, but it
+                  focuses on what it can change most effectively—preventing
+                  child labour by improving economic conditions and supporting
+                  children already affected, to create the greatest impact.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span
+                  ><span class="tech-tag">CSS</span
+                  ><span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">FastAPI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Let's Connect</h2>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p>contact me through the form or via email/phone.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <p>rehanaprijil@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                <div class="contact-text">
+                  <h4>Phone</h4>
+                  <p>+91 78455 27156</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://github.com/rehana-2006"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/rehana-prijil-876665374/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form-wrapper">
+            <form
+              action="https://formspree.io/f/meeejjdl"
+              method="post"
+              id="contact-form"
+              class="contact-form"
+            >
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="John Doe"
+                  required
+                />
+                <span class="error-message" id="name-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="john@example.com"
+                  required
+                />
+                <span class="error-message" id="email-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="want to hire me?"
+                  required
+                ></textarea>
+                <span class="error-message" id="message-error"></span>
+              </div>
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message</span><i class="fas fa-paper-plane"></i>
+              </button>
+              <div class="form-status" id="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo"
+              ><span class="logo-text">Rehana Prijil.S</span></a
+            >
+            <p>Building the future, one line of code at a time.</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Follow Me</h4>
+            <div class="social-links">
+              <a
+                href="https://github.com/rehana-2006"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/rehana-prijil-876665374/"
+                target="_blank"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Rehana Prijil.S . All rights reserved.</p>
           <p>
-            I am <strong>Rehana Prijil</strong>, an aspiring web developer
-            from Kanyakumari district.
-            Currently, I am pursuing professional training at the
-            <strong>Freshworks STS Software Academy</strong>, where I am
-            developing my skills in Web Development, English communication,
-            and Life skills.
+            Designed & Built with <i class="fas fa-heart"></i> by Rehana
+            Prijil.S
           </p>
-          <p>
-            Coming from a humble background, with my Father working as a
-            Fisherman and my mother as a HomeMaker, I also have a younger
-            brother and sister, my family has strengthened my sense of
-            responsibility and motivation to succeed.
-          </p>
-          <div class="about-quote">
-            "My goal is to become a skilled web developer with strong backend
-            expertise."
-          </div>
-        </div>
-
-        <!-- Profile & Stats -->
-        <div class="about-profile-grid">
-          <div class="profile-main-card fade-in-up">
-            <div class="profile-image-container">
-              <img src="./rehana.jpg" alt="Rehana Prijil S" />
-
-            </div>
-            <div class="profile-info">
-              <h4>Rehana Prijil S</h4>
-            </div>
-            <div class="hometown-image-container">
-              <img src="./kanniyakumari.jpg" alt="Kanyakumari District" class="hometown-img" />
-              <div class="hometown-label">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Kanyakumari District</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Academy Carousel Section -->
-        <div class="academy-carousel-container fade-in-up">
-          <div class="carousel-header">
-            <h3 class="carousel-title">My Academy Journey</h3>
-            <p class="carousel-subtitle">Freshworks Software Academy</p>
-          </div>
-          <div class="stats-mini-grid">
-            <div class="stat-card fade-in-up">
-              <span class="stat-number">2+</span>
-              <span class="stat-label">Projects Built</span>
-            </div>
-            <div class="stat-card fade-in-up">
-              <span class="stat-number">2+</span>
-              <span class="stat-label">Awards</span>
-            </div>
-            <div class="stat-card fade-in-up">
-              <span class="stat-number">2+</span>
-              <span class="stat-label">Event Participated</span>
-            </div>
-          </div>
-
-          <div class="carousel-wrapper">
-            <div class="marquee-container">
-              <div class="marquee-track">
-                <!-- Set 1 -->
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./dev_fest.jpg" alt="GDG DevFest" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fab fa-google"></i>
-                      <h4>GDG DevFest 2024</h4>
-                    </div>
-                    <p>
-                      Participated in Google Developer Group DevFest 2024, gaining exposure to the latest technology
-                      trends, industry insights, and networking opportunities with developers and tech experts
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./react_meetup.jpg" alt="React Meetup" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fab fa-react"></i>
-                      <h4>React Meetup</h4>
-                    </div>
-                    <p>
-                      Attended a React Developer Meetup, engaging with industry professionals and exploring advanced
-                      frontend concepts, scalable architectures, and performance optimization techniques.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./dev_fest_prize.jpg" alt="Prize - DevFest" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-trophy"></i>
-                      <h4>DevFest Interactive Quiz Winner</h4>
-                    </div>
-                    <p>
-                      Awarded for active participation and accurate responses in a session-based fun challenge at Google
-                      Developer Group DevFest.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./certificate.jpeg" alt="Presentation Certificate" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-certificate"></i>
-                      <h4>Presentation Skills</h4>
-                    </div>
-                    <p>
-                      Received special recognition for confidently presenting our product during a Product Building
-                      Challenge, clearly explaining its features, functionality, and real-world impact.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./work_place_study_pic.jpeg" alt="Academic Journey" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-book-reader"></i>
-                      <h4>Workplace Study Presentation – 2nd Prize</h4>
-                    </div>
-                    <p>
-                      Delivered a comprehensive presentation on workplace study, exploring various roles within the IT
-                      industry. Through this experience, we strengthened our skills in networking, research,
-                      documentation, and team collaboration. Our unique approach and clear presentation were recognized
-                      with the 2nd Prize.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./art_and_craft.jpg" alt="Art work" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-palette"></i>
-                      <h4>Drawing & Art</h4>
-                    </div>
-                    <p>
-                      I enjoy drawing as a hobby, which allows me to express creativity and maintain a balanced,
-                      imaginative mindset.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./photo_essay_1.png" alt="Photo Essay" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-camera"></i>
-                      <h4>The Great Unwinding – Photo Essay</h4>
-                    </div>
-                    <p>
-                      A visual storytelling project documenting how people in Chennai unwind after work. This experience
-                      strengthened my creativity, interpersonal communication, and presentation abilities.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./product.jpeg" alt="Workplace" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-laptop-code"></i>
-                      <h4>Product building challenge</h4>
-                    </div>
-                    <p>
-                      Developed Comfort Cradle, an innovative pain relief belt designed to ease period cramps. This
-                      project strengthened our teamwork, collaboration, and problem-solving skills while working in a
-                      group environment.
-                    </p>
-                  </div>
-                </div>
-
-                <!-- Set 2 (Duplicates for seamless loop) -->
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./dev_fest.jpg" alt="GDG DevFest" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fab fa-google"></i>
-                      <h4>GDG DevFest 2024</h4>
-                    </div>
-                    <p>
-                      Participated in Google Developer Group DevFest 2024, gaining exposure to the latest technology
-                      trends, industry insights, and networking opportunities with developers and tech experts
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./react_meetup.jpg" alt="React Meetup" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fab fa-react"></i>
-                      <h4>React Meetup</h4>
-                    </div>
-                    <p>
-                      Attended a React Developer Meetup, engaging with industry professionals and exploring advanced
-                      frontend concepts, scalable architectures, and performance optimization techniques.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./dev_fest_prize.jpg" alt="Prize - DevFest" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-trophy"></i>
-                      <h4>DevFest Interactive Quiz Winner</h4>
-                    </div>
-                    <p>
-                      Awarded for active participation and accurate responses in a session-based fun challenge at Google
-                      Developer Group DevFest.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./certificate.jpeg" alt="Presentation Certificate" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-certificate"></i>
-                      <h4>Presentation Skills</h4>
-                    </div>
-                    <p>
-                      Received special recognition for confidently presenting our product during a Product Building
-                      Challenge, clearly explaining its features, functionality, and real-world impact.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./work_place_study_pic.jpeg" alt="Academic Journey" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-book-reader"></i>
-                      <h4>Workplace Study Presentation – 2nd Prize</h4>
-                    </div>
-                    <p>
-                      Delivered a comprehensive presentation on workplace study, exploring various roles within the IT
-                      industry. Through this experience, we strengthened our skills in networking, research,
-                      documentation, and team collaboration. Our unique approach and clear presentation were recognized
-                      with the 2nd Prize.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./art_and_craft.jpg" alt="Art work" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-palette"></i>
-                      <h4>Drawing & Art</h4>
-                    </div>
-                    <p>
-                      I enjoy drawing as a hobby, which allows me to express creativity and maintain a balanced,
-                      imaginative mindset.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./photo_essay_1.png" alt="Photo Essay" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-camera"></i>
-                      <h4>The Great Unwinding – Photo Essay</h4>
-                    </div>
-                    <p>
-                      A visual storytelling project documenting how people in Chennai unwind after work. This experience
-                      strengthened my creativity, interpersonal communication, and presentation abilities.
-                    </p>
-                  </div>
-                </div>
-                <div class="marquee-item">
-                  <div class="marquee-image-container">
-                    <img src="./product.jpeg" alt="Workplace" />
-                  </div>
-                  <div class="slide-caption">
-                    <div class="caption-header">
-                      <i class="fas fa-laptop-code"></i>
-                      <h4>Product building challenge</h4>
-                    </div>
-                    <p>
-                      Developed Comfort Cradle, an innovative pain relief belt designed to ease period cramps. This
-                      project strengthened our teamwork, collaboration, and problem-solving skills while working in a
-                      group environment.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="skills section">
-    <div class="container">
-      <div class="section-header">
-
-        <h2 class="section-title">Skills</h2>
-      </div>
-
-      <!-- Technical Skills Subsection -->
-      <div class="subsection">
-        <h3 class="subsection-title">
-          <i class="fas fa-code"></i> Technical Skills
-        </h3>
-        <div class="skills-container">
-          <!-- HTML Card -->
-          <div class="skill-card-individual fade-in-up">
-            <div class="skill-icon-container html">
-              <i class="fab fa-html5"></i>
-            </div>
-            <h4 class="skill-name-card">HTML</h4>
-          </div>
-
-          <!-- CSS Card -->
-          <div class="skill-card-individual fade-in-up">
-            <div class="skill-icon-container css">
-              <i class="fab fa-css3-alt"></i>
-            </div>
-            <h4 class="skill-name-card">CSS</h4>
-          </div>
-
-          <!-- JavaScript Card -->
-          <div class="skill-card-individual fade-in-up">
-            <div class="skill-icon-container js">
-              <i class="fab fa-js"></i>
-            </div>
-            <h4 class="skill-name-card">JavaScript</h4>
-          </div>
-
-          <!-- PostgreSQL Card -->
-          <div class="skill-card-individual fade-in-up">
-            <div class="skill-icon-container pg">
-              <i class="fas fa-database"></i>
-            </div>
-            <h4 class="skill-name-card">PostgreSQL</h4>
-          </div>
-
-          <!-- Python Card -->
-          <div class="skill-card-individual fade-in-up">
-            <div class="skill-icon-container python">
-              <i class="fab fa-python"></i>
-            </div>
-            <h4 class="skill-name-card">Python</h4>
-          </div>
-
-          <!-- FastAPI Card -->
-          <div class="skill-card-individual fade-in-up">
-            <div class="skill-icon-container fastapi">
-              <i class="fas fa-bolt"></i>
-            </div>
-            <h4 class="skill-name-card">FastAPI</h4>
-          </div>
-
-          <!-- Problem Solving Card -->
-          <div class="skill-card-individual fade-in-up">
-            <div class="skill-icon-container problem">
-              <i class="fas fa-puzzle-piece"></i>
-            </div>
-            <h4 class="skill-name-card">Problem Solving</h4>
-          </div>
-        </div>
-        <h3 class="subsection-title"><i class="fas fa-code"></i> Tools</h3>
-        <div class="lsrw-grid">
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fab fa-github"></i></div>
-            <h4 class="lsrw-label">github</h4>
-
-          </div>
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-code"></i></div>
-            <h4 class="lsrw-label">VS Code</h4>
-            <!-- <div class="grade-badge">A+</div> -->
-          </div>
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-lightbulb"></i></div>
-            <h4 class="lsrw-label">Figma</h4>
-            <!-- <div class="grade-badge">A+</div> -->
-          </div>
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-server"></i></div>
-            <h4 class="lsrw-label">vercel</h4>
-            <!-- <div class="grade-badge">A+</div> -->
-          </div>
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-database"></i></div>
-            <h4 class="lsrw-label">Supabase</h4>
-            <!-- <div class="grade-badge">A+</div> -->
-          </div>
         </div>
       </div>
+    </footer>
 
-      <!-- Communication Subsection -->
-      <div class="subsection" style="margin-top: 60px">
-        <h3 class="subsection-title">
-          <i class="fas fa-language"></i> English Skills
-        </h3>
-        <div class="lsrw-grid">
-          <!-- Listening -->
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-headphones"></i></div>
-            <h4 class="lsrw-label">Listening</h4>
-            <div class="grade-badge">B2 - Upper Intermediate</div>
-          </div>
-          <!-- Speaking -->
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-comment-dots"></i></div>
-            <h4 class="lsrw-label">Speaking</h4>
-            <div class="grade-badge">B2 - Upper Intermediate</div>
-          </div>
-          <!-- Reading -->
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-book-open"></i></div>
-            <h4 class="lsrw-label">Reading</h4>
-            <div class="grade-badge">B2 - Upper Intermediate</div>
-          </div>
-          <!-- Writing -->
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-pen-nib"></i></div>
-            <h4 class="lsrw-label">Writing</h4>
-            <div class="grade-badge">B2 - Upper Intermediate</div>
-          </div>
-        </div>
-      </div>
-      <div class="subsection" style="margin-top: 60px">
-        <h3 class="subsection-title">
-          <i class="fas fa-heart"></i> Life Skills
-        </h3>
-        <div class="lsrw-grid">
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-users"></i></div>
-            <h4 class="lsrw-label">Teamwork</h4>
-
-          </div>
-          <div class="lsrw-card fade-in-up">
-            <div class="lsrw-icon"><i class="fas fa-lightbulb"></i></div>
-            <h4 class="lsrw-label">Problem Solving</h4>
-            <!-- <div class="grade-badge">A+</div> -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="projects" class="projects section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Projects</h2>
-      </div>
-
-      <!-- Group: Featured Projects (Personal) -->
-      <div class="subsection">
-
-        <div class="projects-grid">
-          <!-- Featured: Mini Home Decor E-Shop -->
-          <div class="project-card">
-            <div class="project-image">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="https://rehana-2006.github.io/static_website/" class="project-link" target="_blank">
-                    <i class="fas fa-external-link-alt"></i>
-                    <span>Live Demo</span></a>
-                </div>
-              </div>
-              <div class="project-placeholder">
-                <img src="./static.png" alt="static" />
-
-              </div>
-            </div>
-            <div class="project-content">
-              <h3>Mini Home Decor E-Shop</h3>
-              <p>
-                A e-commerce platform for home decor items , a static project
-                featuring product listings, View product details and shows the
-                clean checkout process . Built with
-                <b>HTML and CSS</b>. It mainly focused on frontend
-                development.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">HTML</span><span class="tech-tag">CSS</span>
-              </div>
-            </div>
-          </div>
-          <!-- Project 2 -->
-          <div class="project-card">
-            <div class="project-image">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="https://job-4-hope-full-stack.vercel.app/" class="project-link" target="_blank"><i
-                      class="fas fa-external-link-alt"></i><span>Live Demo</span></a>
-                </div>
-              </div>
-              <div class="project-placeholder">
-                <img src="./full stack.png" alt="job4hope" />
-
-              </div>
-            </div>
-            <div class="project-content">
-              <h3>Job4Hope</h3>
-              <p>
-                Job4Hope can’t solve every aspect of child labour, but it
-                focuses on what it can change most effectively—preventing
-                child labour by improving economic conditions and supporting
-                children already affected, to create the greatest impact.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span
-                  class="tech-tag">JavaScript</span>
-                <span class="tech-tag">FastAPI</span>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact section">
-    <div class="container">
-      <div class="section-header">
-
-        <h2 class="section-title">Let's Connect</h2>
-      </div>
-      <div class="contact-content">
-        <div class="contact-info">
-
-          <p>contact me through the form or via email/phone.</p>
-          <div class="contact-details">
-            <div class="contact-item">
-              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-              <div class="contact-text">
-                <h4>Email</h4>
-                <p>rehanaprijil@gmail.com</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon"><i class="fas fa-phone"></i></div>
-              <div class="contact-text">
-                <h4>Phone</h4>
-                <p>+91 78455 27156</p>
-              </div>
-            </div>
-          </div>
-          <div class="social-links">
-            <a href="https://github.com/rehana-2006" target="_blank" class="social-link"><i
-                class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/rehana-prijil-876665374/" target="_blank" class="social-link"><i
-                class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-        <div class="contact-form-wrapper">
-          <form action="https://formspree.io/f/meeejjdl" method="post" id="contact-form" class="contact-form">
-            <div class="form-group">
-              <label for="name">Your Name</label>
-              <input type="text" id="name" name="name" placeholder="John Doe" required />
-              <span class="error-message" id="name-error"></span>
-            </div>
-            <div class="form-group">
-              <label for="email">Your Email</label>
-              <input type="email" id="email" name="email" placeholder="john@example.com" required />
-              <span class="error-message" id="email-error"></span>
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="5" placeholder="want to hire me?" required></textarea>
-              <span class="error-message" id="message-error"></span>
-            </div>
-            <button type="submit" class="btn btn-primary btn-submit">
-              <span>Send Message</span><i class="fas fa-paper-plane"></i>
-            </button>
-            <div class="form-status" id="form-status"></div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="#home" class="footer-logo"><span class="logo-text">Rehana Prijil.S</span></a>
-          <p>Building the future, one line of code at a time.</p>
-        </div>
-        <div class="footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-social">
-          <h4>Follow Me</h4>
-          <div class="social-links">
-            <a href="https://github.com/rehana-2006" target="_blank" class="social-link"><i
-                class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/rehana-prijil-876665374/" target="_blank" class="social-link"><i
-                class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Rehana Prijil.S . All rights reserved.</p>
-        <p>
-          Designed & Built with <i class="fas fa-heart"></i> by Rehana
-          Prijil.S
-        </p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
